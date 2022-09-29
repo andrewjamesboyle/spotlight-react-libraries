@@ -1,5 +1,5 @@
 export const data = {
-  labels: ['Trump', 'Michelle Obama', 'The Rock', 'Joe Rogan', 'Julie', 'Marty'],
+  labels: ['Vic', 'Clare', 'Julie', 'Marty', 'Megan', 'Ruthie'],
   datasets: [
     {
       label: '# of Votes',

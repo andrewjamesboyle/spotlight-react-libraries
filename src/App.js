@@ -1,3 +1,4 @@
+import 'bulma/css/bulma.min.css';
 import { Link, Route, Switch } from 'react-router-dom';
 import { Doughnut } from 'react-chartjs-2';
 import { data } from './data';
@@ -15,8 +16,8 @@ function App() {
   return (
     <div className="App">
       <nav>
-        <Link to="/table">Table</Link>
-        <Link to="/charts">Charts</Link>
+        <Link className="title is-3" to="/table">Table</Link>
+        <Link className="title is-3" to="/charts">Charts</Link>
       </nav>
       <Switch>
         <Route path="/table">

@@ -2,6 +2,7 @@ import React from 'react';
 import usersData from '../../users.json';
 import { useState } from 'react';
 import { Table as RTable, Column, HeaderCell, Cell } from 'rsuite-table';
+import 'rsuite-table/dist/css/rsuite-table.css';
 
 export default function Table() {
   const [users, setUsers] = useState(usersData);
