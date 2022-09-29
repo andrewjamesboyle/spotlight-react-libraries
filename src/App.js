@@ -15,17 +15,18 @@ ChartJS.register(ArcElement, Tooltip, Legend);
 function App() {
   return (
     <div className="App">
-      <nav>
+      <header className='hero is-success'>This is a hero banner created in Bulma</header>
+      <nav className="hero is-warning">
         <Link className="title is-3" to="/table">Table</Link>
         <Link className="title is-3" to="/charts">Charts</Link>
       </nav>
       <Switch>
         <Route path="/table">
-          <h1>Table Libary</h1>
+          <h1 className="hero is-info">Table Library</h1>
           <Table />
         </Route>
         <Route path="/charts">
-          <h1>2024 Presidential Poll</h1>
+          <h1 className="hero is-danger">2024 Presidential Poll</h1>
           <Doughnut data={data} />
         </Route>
       </Switch>
