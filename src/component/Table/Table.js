@@ -5,7 +5,7 @@ import { Table as RTable, Column, HeaderCell, Cell } from 'rsuite-table';
 import 'rsuite-table/dist/css/rsuite-table.css';
 
 export default function Table() {
-  const [users, setUsers] = useState(usersData);
+  const [users] = useState(usersData);
 
   return (
     <RTable data={users}>
